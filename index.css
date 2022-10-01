@@ -1,0 +1,74 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ============== MENU 1 =============== */
+
+.menu-1{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.jaguar{
+    height: 70px;
+    filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(149deg) brightness(91%) contrast(106%);
+}
+
+.conciencia{
+color:white;
+font-size: 20px;
+margin-top: 30px;
+margin-left: 15px;
+text-align: center;
+}
+
+.logo{
+    margin-left: 100px;
+    margin-top:15px;
+}
+
+/* ====== NAV SOCIAL ======= */
+.nav-social{
+    display: inline-flex;
+    margin-left: 830px;
+    margin-top: 0px;
+    
+}
+.li1{
+    font-size: 38px;
+    padding: 8px;
+}
+
+.a1{
+    color: white;
+}
+
+
+/* ============== MENU 2 =============== */
+.menu-2{
+    background-color: green;
+    height: 50px;
+    
+}
+
+.menu-2-links{
+    margin-left: 1100px;
+}
+
+li{
+    margin-right: 18px;
+    display: inline-flex;
+    font-size: 17px;
+    margin-top: 13px; 
+
+}
+.a2{
+    color: white;
+    text-decoration: none;
+}
+
