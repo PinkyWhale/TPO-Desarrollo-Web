@@ -1,16 +1,17 @@
-TPO Desarrollo Web
-HTML, CSS y Javascript
+# TPO Desarrollo
+_Web realizada en HTML, CSS y Javascript_
 
-¿Cuándo se entrega?
-Clase 22: miércoles 19 al viernes 21 de octubre de 2022.
+## Entrega 🚀
+_Clase 22: miércoles 19 al viernes 21 de octubre de 2022._
 
-¿Cómo se desarrollará el proyecto?
-El proyecto web se desarrollará en grupos de 3 integrantes cada uno (obligatorio). Cada grupo deberá designar un representante de forma tal de establecer contacto directo con el Docente. Será ese integrante el que recibirá la devolución del proyecto realizada por el Docente en el transcurso de la cursada y cualquier notificación relevante realizada a lo largo del desarrollo del proyecto.
+## Desarrollo del proyecto
+- Grupos de 3 integrantes(obligatorio). 
+- Representante: 
+_Será ese integrante el que recibirá la devolución del proyecto realizada por el Docente en el transcurso de la cursada y cualquier notificación relevante realizada a lo largo del desarrollo del proyecto._
 
-¿Qué hay que entregar?
-El TPO deberá cumplir con los siguientes requisitos:
-Poseer al menos 4 páginas html, siendo su temática libre. En caso de ser un Sitio Web estilo One Page, el mismo deberá tener al menos 5 secciones.
-Utilizar etiquetas semánticas para estructurar el sitio.
+## Requisitos
+4 páginas html.
+Etiquetas semánticas para estructurar el sitio.
 Contener un formulario de contacto con validación realizada mediante Javascript. Opcional: el formulario podrá enviar un email utilizando algún servicio externo destinado para ello.
 Utilizar al menos un Iframe, íconos de FontAwesome o Flaticon; y fuentes locales o bien de Google Fonts.
 Tener al menos una página totalmente responsive con 3 puntos de corte para 3 tamaños de dispositivos distintos.
