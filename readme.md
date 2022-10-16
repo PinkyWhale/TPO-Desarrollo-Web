@@ -23,8 +23,10 @@ El desarrollo web deberá subirse a un servidor on-line para poder ser navegada 
 Además de los aspectos técnicos mencionados anteriormente, el proyecto deberá contemplar aspectos de diseño los cuales también serán evaluados por el Docente. Para eso se recomienda que vean el material disponible en el Aula Virtual. Seminario de Diseño Web:.  https://youtu.be/fVkGt2tYIj0Para más información, ver material incluído en el Aula Virtual “Diseño”. En relación al estilo de la web (look&feel) se evaluará y considerará: maquetación del sitio web; alineación, orden y márgenes entre los elementos; tipografía seleccionada acorde a la temática del proyecto; fotografía de calidad y optimizada para web; paleta de colores seleccionada acorde a la temática; logo utilizado en el sitio web.
 Nota: el TPO es grupal, deberán sincronizar el código del TPO en Github (o similar) enviando el link del repositorio al Docente al momento de entregar el proyecto. Este requisito es obligatorio. Para más información sobre GIT, ver material incluído en el Aula Virtual “GIT”.
 
-Condiciones de aprobación: para aprobar se requiere resolver el trabajo práctico en un 60% de forma correcta.
+## Condiciones de aprobación: 
+para aprobar se requiere resolver el trabajo práctico en un 60% de forma correcta.
 
-¿Cómo se entrega?
+## ¿Cómo se entrega?
 Cada Docente informará la vía para subir el trabajo. Al momento de la entrega deberán informar: link a la web navegable, link al repositorio utilizado, integrantes y comentarios que consideren necesarios agregar a la entrega.
+
 Nota: si ya tenés un proyecto comenzado para este curso, podrás usarlo para esta entrega agregándole lo que falte para cumplir con los requisitos.
