@@ -1,148 +1,147 @@
 *{
-    font-family: 'Times New Roman', Times, serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 /* ============== MENU 1 =============== */
 
 .menu-1{
-    background-color: black;
-    height: 100px;
-    width: 100%;
-    display: inline-flex;
+	background-color: black;
+	height: 100px;
+	width: 100%;
+	display: inline-flex;
 }
 
 .jaguar{
-    height: 70px;
-    filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(149deg) brightness(91%) contrast(106%);
+	height: 70px;
+	filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(149deg) brightness(91%) contrast(106%);
 }
 
 .conciencia{
-color:white;
-font-size: 20px;
-margin-top: 30px;
-margin-left: 15px;
-text-align: center;
+	color:white;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 15px;
+	text-align: center;
 }
 
 .logo{
-    margin-left: 100px;
-    margin-top:15px;
+	margin-left: 100px;
+	margin-top:15px;
 }
 
 /* ====== NAV SOCIAL ======= */
 .nav-social{
-    display: inline-flex;
-    margin-left: 830px;
-    margin-top: 0px;
-    
+	display: inline-flex;
+	margin-left: 830px;
+	margin-top: 0px;
 }
+
 .li1{
-    font-size: 38px;
-    padding: 8px;
+	font-size: 38px;
+	padding: 8px;
 }
 
 .a1{
-    color: white;
+	color: white;
 }
 
 
 /* ============== MENU 2 =============== */
 .menu-2{
-    background-color: green;
-    height: 50px;
-    
+	background-color: green;
+	height: 50px;
 }
 
 .menu-2-links{
-    margin-left: 1100px;
+  margin-left: 1100px;
 }
 
 li{
-    margin-right: 18px;
-    display: inline-flex;
-    font-size: 17px;
-    margin-top: 13px; 
+	margin-right: 18px;
+	display: inline-flex;
+	font-size: 17px;
+	margin-top: 13px; 
 
 }
 .a2{
-    color: white;
-    text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 
 /* FOOTER */
 .pie-pagina{
-    width: 100%;
-    background-color: black;
+	width: 100%;
+	background-color: black;
 }
 
 .pie-pagina .grupo-1{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	padding: 45px 0px;
 }
 
 .pie-pagina .grupo-1 .box figure{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
 }
 
 .pie-pagina .grupo-1 .box figure img{
-    filter: invert(100%);
-    width: 250px;
+	filter: invert(100%);
+	width: 250px;
 }
 
 .pie-pagina .grupo-1 .box h2{
-    color: white;
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-family: 'Arial';
+	color: white;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-family: 'Arial';
 }
 
 .pie-pagina .grupo-1 .box p{
-    color: rgb(190, 190, 190);
-    font-family: 'Arial';
-    margin-bottom: 10px;
+	color: rgb(190, 190, 190);
+	font-family: 'Arial';
+	margin-bottom: 10px;
 }
 
 .pie-pagina .grupo-1 .redes-sociales a{
-    text-decoration: none;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    color: white;
-    font-size: 25px;
-    margin-right: 10px;
-    background-color: rgb(41, 41, 41);
-    text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	font-size: 25px;
+	margin-right: 10px;
+	background-color: rgb(41, 41, 41);
+	text-align: center;
 }
 
 .pie-pagina .grupo-1 .redes-sociales a:hover{
-    color: green;
-    font-size: 30px;
+	color: green;
+	font-size: 30px;
 }
 
 .pie-pagina .grupo-2 {
-    background-color: green;
-    color: white;
-    font-family: 'Arial';
-    padding: 15px 10px;
-    text-align: center;
+	background-color: green;
+	color: white;
+	font-family: 'Arial';
+	padding: 15px 10px;
+	text-align: center;
 }
 
 .pie-pagina .creadores{
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    font-family: 'Arial';
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	font-family: 'Arial';
 }
