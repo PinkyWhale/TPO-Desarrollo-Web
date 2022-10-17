@@ -1,4 +1,4 @@
-# TPO Desarrollo
+# TPO Desarrollo Web
 _Web realizada en HTML, CSS y Javascript_
 
 ## Integrantes:
