@@ -1,6 +1,13 @@
 # TPO Desarrollo
 _Web realizada en HTML, CSS y Javascript_
 
+## Integrantes:
+- Fernandez, Tomás.
+- Garcete, Érica Elizabeth.
+- Salvi, Lucía.
+
+URL: https://conciencia-grupocacpython.netlify.app/
+
 ## Entrega 🚀
 _Clase 22: miércoles 19 al viernes 21 de octubre de 2022._
 
@@ -13,7 +20,7 @@ _Será ese integrante el que recibirá la devolución del proyecto realizada por
 - [x] Poseer 4 páginas html.
 - [x] Etiquetas semánticas para estructurar el sitio.
 - [ ] Contener un formulario de contacto con validación realizada mediante Javascript. 
-_Opcional: el formulario podrá enviar un email utilizando algún servicio externo destinado para ello._
+_Opcional: El formulario podrá enviar un email utilizando algún servicio externo destinado para ello._
 - [ ] Utilizar al menos un Iframe, íconos de FontAwesome o Flaticon; y fuentes locales o bien de Google Fonts.
 - [ ] Tener al menos una página totalmente responsive con 3 puntos de corte para 3 tamaños de dispositivos distintos.
 - [ ] Incorporar al menos una animación, transformación o una transición (se deberá indicar en qué parte del sitio web fue incorporada la animación).
@@ -35,11 +42,3 @@ Para aprobar se requiere resolver el trabajo práctico en un 60% de forma correc
 Cada Docente informará la vía para subir el trabajo. Al momento de la entrega deberán informar: link a la web navegable, link al repositorio utilizado, integrantes y comentarios que consideren necesarios agregar a la entrega.
 
 Nota: si ya tenés un proyecto comenzado para este curso, podrás usarlo para esta entrega agregándole lo que falte para cumplir con los requisitos.
-
-#TPO
-Integrantes:
-- Fernandez, Tomás
-- Garcete, Érica 
-- Salvi, Lucía
-
-URL: https://conciencia-grupocacpython.netlify.app/
