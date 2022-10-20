@@ -63,13 +63,18 @@
 li{
 	display: inline-flex;
 	font-size: 17px;
-	margin-right: 18px;
-	margin-top: 13px; 
-
 }
 .item-navbar{
 	color: white;
+	margin: 10px 13px;
+	padding: 2px 1px 2px 1px;
 	text-decoration: none;
+	opacity: 0.9;
+	transition: 0.3s;
+}
+.item-navbar:hover{
+	opacity: 1;
+	color: black;
 }
 
 /* FOOTER */
