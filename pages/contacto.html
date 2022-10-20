@@ -43,22 +43,42 @@
 
   <main>
     <!--Formulario-->
-    <form action="/enviar-respuesta">
-      <span>Nombre:</span><input type="text" placeholder="Nombre" required><br>
-      <span>Email:</span><input type="text" placeholder="...@gmail.com" required><br>
-      <br>
-      <span>¿En que te gustaria colaborar?</span><br>
-      <label for=""><input type="radio" name="colaborar" value="traducciones">Traducciones</label><br>
-      <label for=""><input type="radio" name="colaborar" value="charlas">Charlas</label><br>
-      <label for=""><input type="radio" name="colaborar" value="investigacion">Investigacion</label><br>
-      <label for=""><input type="radio" name="colaborar" value="legales">Legales</label><br>
-      <label for=""><input type="radio" name="colaborar" value="otros">Otros</label><br>
-      <br>
-      <label for="terminos"><input type="checkbox" required checked> Leí los terminos y condiciones.</label><br>
-      <label for="suscripcion"><input type="checkbox"> Suscripcion a newsletter.</label><br>
-      <br>
-      <button type="submit">Enviar</button>
-    </form>
+    <div class="container g-3 mt-3">
+      <h2>Formulario de Contacto:</h2>
+      <form class="row g-3 mt-3" action="/enviar-respuesta">
+        <div class="col-6">
+          <label for="nombreInput" class="form-label">Nombre:</label>
+          <input type="text" placeholder="Escribe tu Nombre..." form="class-control" id="nombreInput" required>
+        </div>
+        <div class="col-6">
+          <label for="mailInput" class="form-label">E-Mail:</label>
+          <input type="email" placeholder="Escribe tu e-mail..." form="class-control" id="mailInput" required>
+        </div>
+        <div class="col-12">
+          <span>¿En que te gustaria colaborar?</span><br>
+          <label for=""><input type="radio" name="colaborar" value="traducciones">Traducciones</label><br>
+          <label for=""><input type="radio" name="colaborar" value="charlas">Charlas</label><br>
+          <label for=""><input type="radio" name="colaborar" value="investigacion">Investigacion</label><br>
+          <label for=""><input type="radio" name="colaborar" value="legales">Legales</label><br>
+          <label for=""><input type="radio" name="colaborar" value="otros">Otros</label><br>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input type="checkbox" id="checkTerms" class="form-check-input" required checked>
+            <label for="checkTerms" class="form-check-label">Leí los terminos y condiciones.</label>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input type="checkbox" id="checkSuscrip" class="form-check-input">
+            <label for="checkSuscrip" class="form-check-label">Suscripciòn a newsletter.</label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </div>
   </main>
 
 
