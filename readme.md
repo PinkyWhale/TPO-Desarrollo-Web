@@ -19,7 +19,7 @@ _Será ese integrante el que recibirá la devolución del proyecto realizada por
 ## Requisitos
 - [x] Poseer 4 páginas html.
 - [x] Etiquetas semánticas para estructurar el sitio.
-- [ ] Contener un formulario de contacto con validación realizada mediante Javascript. 
+- [x] Contener un formulario de contacto con validación realizada mediante Javascript. 
 _Opcional: El formulario podrá enviar un email utilizando algún servicio externo destinado para ello._
 - [ ] Utilizar al menos un Iframe, íconos de FontAwesome o Flaticon; y fuentes locales o bien de Google Fonts.
 - [ ] Tener al menos una página totalmente responsive con 3 puntos de corte para 3 tamaños de dispositivos distintos.
