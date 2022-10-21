@@ -27,6 +27,6 @@ form.addEventListener("submit", e=>{
         mensajes.innerHTML = warnings;
         
     }else{
-        mensajes.innerHTML = 'ENVIADO!'
+        mensajes.innerHTML = 'ENVIADO!';
     }
 })
