@@ -32,23 +32,6 @@
 	margin-top:15px;
 }
 
-/* ====== NAV SOCIAL ======= */
-.nav-social{
-	display: inline-flex;
-	margin-left: 830px;
-	margin-top: 0px;
-}
-
-.li1{
-	font-size: 38px;
-	padding: 8px;
-}
-
-.a1{
-	color: white;
-}
-
-
 /* main NavBar */
 .main-navbar{
 	background-color: green;
