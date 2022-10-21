@@ -1,32 +1,27 @@
-const nombre = document.getElementById("nombreInput");
-const mail = document.getElementById("mailInput");
-const comentarios= document.getElementById("comentariosFormControlTextarea");
-const colaborar = document.getElementsByName("flexRadioDefault");
-const terms = document.getElementById("checkTerms");
-const suscrip = document.getElementById("checkSuscrip");
-const form = document.getElementById("form");
-const mensajes = document.getElementById("warnings");
+const nombre = document.getElementById('nombreInput');
+const email = document.getElementById('mailInput');
+const error = document.getElementById('error');
+const form = document.getElementById('formulario-id');
+const mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
-form.addEventListener("submit", e=>{
-    e.preventDefault();
-    
-    let warnings = '';
-    let validacion = false;
-    let regexMail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/ ;
+form.addEventListener('submit', function(evt){
+    evt.preventDefault();
+    console.log('Enviando formulario...')
 
-    if (nombre.value.lenght<3) {
-        warnings += 'El nombre es menor a 3 caracteres* <br>';
-        validacion = true;
-    };
-    if(!regexMail.test(mail.value)){
-        warnings += 'El mail no es valido* <br>';
-        validacion = true;
+    var mensajesError = [];
+
+    // Validacion Nombre
+    if(nombre.value === null || nombre.value === ''){
+        mensajesError.push('Ingresa un Nombre valido*');
     }
 
-    if(validacion) {
-        mensajes.innerHTML = warnings;
-        
+    //Validacion Mail
+    if(email.value.match(mailformat)){
+        console.log('Mail OK!');
     }else{
-        mensajes.innerHTML = 'ENVIADO!';
+        mensajesError.push('Ingresa un Email valido*');
     }
-})
+
+    //Mensajes de error en form
+    error.innerHTML = mensajesError.join(', <br>');
+});
