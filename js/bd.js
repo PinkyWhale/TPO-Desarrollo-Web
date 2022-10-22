@@ -1,5 +1,6 @@
 //const animalContainer = document.querySelector(".animal-container");
 const nombreAnimal = document.getElementById("h1-id");
+const latinAnimal = document.getElementById("h4-id")
 const ubicacionAnimal = document.getElementById("ubicacion-id");
 const imagenAnimal = document.getElementById("img-id")
 
@@ -12,7 +13,7 @@ fetch(url)
 
 function mostrarData(data){
     nombreAnimal.innerHTML = data.name;
-    
+    latinAnimal.innerHTML = "(" + data.latin_name + ")"
     ubicacionAnimal.innerHTML = "Ubicacion: "+ data.geo_range;
     imagenAnimal.src = data.image_link;
 
