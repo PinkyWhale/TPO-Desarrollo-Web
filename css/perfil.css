@@ -19,13 +19,12 @@
 	border-radius: 1rem;
 	position: relative;
 	width: 280px;
-	margin-bottom: .5rem;
-	margin-left: .5rem;
+	margin: 1.5rem 0 1.5rem 1rem;
 }
 
 .banner-img{
 	position: absolute;
-	background-image: url('https://images.unsplash.com/photo-1666020528652-4501f9b476c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+	background-image: url('https://images.unsplash.com/photo-1665737050993-7b295025a8e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=384&q=80');
 	height: 10rem;
 	width: 100%;
 	background-position: center;
