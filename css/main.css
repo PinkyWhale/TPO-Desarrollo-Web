@@ -33,6 +33,17 @@
 }
 
 /* main NavBar */
+.menu-1 #icon{
+	color: white;
+	font-size: 30px;        
+	line-height: 100px;     
+	float: right;
+	margin-right: 40px;     
+	cursor: pointer;
+	display: none;        
+	}
+
+
 .main-navbar{
 	background-color: green;
 	height: 50px;
@@ -61,6 +72,9 @@ li{
 }
 
 /* CONTENT */
+.content-concientizacion{
+	     margin: 20px;
+}
 .container-iframe {
     position: relative;
     padding-bottom: 56.25%;
@@ -144,17 +158,33 @@ li{
 	text-align: center;
 }
 
-.pie-pagina .creadores{
-	display: flex;
-	justify-content: space-around;
-	color: white;
-	font-family: 'Arial';
-}
-
 /* RESPONSIVE*/
 
 @media only screen and (max-width: 600px) {
+	.conciencia, .main-navbar, .jaguar{
+		display: none;
+	}
+
 	
+	.content-concientizacion, .content-concientizacion ul li{
+	    margin: 10px;
+	    font-size: 13px;
+	}
+	 .content-concientizacion h1{
+	    font-size: 22px;
+	}
+	.content-concientizacion h2{
+	    font-size: 18px;
+	}
+	 .content-concientizacion h3{
+	    font-size: 14px;
+	}
+	.pie-pagina .grupo-1 p{
+		font-size: 15px;
+	}
+	.pie-pagina .grupo-2{
+	    font-size: 13px ;
+	}
 	.pie-pagina .grupo-1{
 		width: 90%;
 		grid-template-columns: repeat(1, 1fr);
