@@ -33,17 +33,6 @@
 }
 
 /* main NavBar */
-.menu-1 #icon{
-	color: white;
-	font-size: 30px;        
-	line-height: 100px;     
-	float: right;
-	margin-right: 40px;     
-	cursor: pointer;
-	display: none;        
-	}
-
-
 .main-navbar{
 	background-color: green;
 	height: 50px;
@@ -161,10 +150,6 @@ li{
 /* RESPONSIVE*/
 
 @media only screen and (max-width: 600px) {
-	.conciencia, .main-navbar, .jaguar{
-		display: none;
-	}
-
 	
 	.content-concientizacion, .content-concientizacion ul li{
 	    margin: 10px;
