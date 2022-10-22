@@ -1,11 +1,9 @@
-//const animalContainer = document.querySelector(".animal-container");
 const nombreAnimal = document.getElementById("h1-id");
 const latinAnimal = document.getElementById("h4-id")
 const ubicacionAnimal = document.getElementById("ubicacion-id");
 const imagenAnimal = document.getElementById("img-id");
 const tipoAnimal = document.getElementById("animaltipo-id");
 const habitatAnimal = document.getElementById("habitat-id");
-
 
 let url = "https://zoo-animal-api.herokuapp.com/animals/rand"
 fetch(url)
@@ -20,21 +18,4 @@ function mostrarData(data){
     tipoAnimal.innerHTML = data.animal_type;
     ubicacionAnimal.innerHTML = "<strong>Ubicación:</strong> "+ data.geo_range;
     habitatAnimal.innerHTML = "<strong>Habitat:</strong> "+ data.habitat;
-    
-
-
-
-    /*
-    const h3 = document.createElement('h3');
-    h3.textContent = data.name;
-    
-    const img = document.createElement('img');
-    img.src = data.image_link;
-
-    const div = document.createElement('div');
-    div.appendChild(h3);
-    div.appendChild(img);
-
-    animalContainer.appendChild(div);
-    */
 }
