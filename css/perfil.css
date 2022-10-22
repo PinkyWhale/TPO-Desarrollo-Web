@@ -13,7 +13,7 @@
 
 .container-card{
     overflow: hidden;
-	box-shadow: 0px 2px 8px 0px rgba(211, 211, 211, 0.664);
+	box-shadow: 0px 2px 8px 0px rgba(211, 211, 211, 0.377);
 	background-color: white;
 	text-align: center;
 	border-radius: 1rem;
@@ -22,3 +22,39 @@
 	margin-bottom: .5rem;
 	margin-left: .5rem;
 }
+
+.banner-img{
+	position: absolute;
+	background-image: url('https://images.unsplash.com/photo-1666020528652-4501f9b476c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+	height: 10rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.profile-img{
+	width: 8rem;
+	clip-path: circle(60px at center);
+	margin-top: 4.5rem;
+}
+
+.profile-name{
+	font-size: 1.2rem;
+}
+
+.profile-dscrp{
+	margin: 1rem 2rem;
+	font-size: 0.9rem;
+}
+
+.profile-btn{
+	width: 100%;
+	border: none;
+	font-size: 1rem;
+	font-weight: bold;
+	color: white;
+	background-color: green;
+	padding: 1rem;
+}
+
