@@ -49,10 +49,12 @@
 .main-navbar{
 	background-color: green;
 	height: 50px;
+	text-align: end;
 }
 
 .main-navbar-links{
-	float: right;
+	display: inline-block	;
+	
 }
 
 li{
