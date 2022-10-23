@@ -9,7 +9,7 @@ _Web realizada en HTML, CSS y Javascript_
 URL: https://conciencia-grupocacpython.netlify.app/
 
 ## Entrega 🚀
-_Clase 22: miércoles 19 al viernes 21 de octubre de 2022._
+_Clase 22: Miércoles 19 al Domingo 23 de octubre de 2022._
 
 ## Desarrollo del proyecto
 - Grupos de 3 integrantes(obligatorio). 
